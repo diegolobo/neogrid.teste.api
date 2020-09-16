@@ -60,7 +60,7 @@ namespace neogrid.teste.api
             app.UseSwagger();
             app.UseSwaggerUI(options => 
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger Demo API");
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger API");
             });
         }
     }
