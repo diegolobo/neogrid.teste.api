@@ -31,8 +31,8 @@ namespace neogrid.teste.api
             {
                 options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Demo API",
-                    Description = "Demo API for showing Swagger",
+                    Title = "Neogrid Teste API",
+                    Description = "Teste técnico da Neogrid para vaga de Densenvolvedor .NET",
                     Version = "v1"
                 });
             });
@@ -60,7 +60,7 @@ namespace neogrid.teste.api
             app.UseSwagger();
             app.UseSwaggerUI(options => 
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger API");
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Neogrid Teste API");
             });
         }
     }
